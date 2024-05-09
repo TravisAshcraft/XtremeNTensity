@@ -1,0 +1,67 @@
+/* Header.css */
+
+/* Parent container for the navbar */
+.navbar-container {
+    background-color: #030309; /* Black background */
+    padding: 1em 0; /* Optional padding to provide spacing */
+}
+
+/* General Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background-color: #deba3b; /* Adjust to match your desired color */
+    border-radius: 15px; /* Adjust this value for more or less rounding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    margin: 0.5em; /* Adds a small gap around the navbar */
+}
+
+/* Logo Section */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px; /* Adjust the logo size as needed */
+    margin-right: 0.5em;
+}
+
+.logo h1 {
+    font-size: 1.5em;
+    color: #000; /* Adjust to match your desired color */
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 1.5em;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000; /* Adjust to match your desired color */
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Register Button */
+.register-btn {
+    background-color: #fdee21; /* Adjust to match your desired color */
+    border: none;
+    border-radius: 20px;
+    padding: 0.5em 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.register-btn:hover {
+    background-color: #f7b907; /* Darken the button on hover */
+}

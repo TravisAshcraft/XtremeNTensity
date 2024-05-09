@@ -1,0 +1,87 @@
+/* Hero.css */
+.hero {
+    position: relative;
+    background: url('/public/images/destruction.png'); /* Adjust the image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 1920px; /* Adjust as necessary */
+    aspect-ratio: 1920 / 620;
+    margin: 0 auto;
+    color: white;
+    text-align: left;
+    padding: 4em 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30%; /* Adjust height as needed */
+    background: linear-gradient(
+            to bottom,
+            rgba(3, 3, 9, 1), /* Semi-transparent at the top */
+            rgba(3, 3, 9, 0)    /* Transparent by the bottom of the section */
+    );
+    z-index: 1;
+}
+
+.hero-content {
+    position: absolute;
+    top: 22%; /* Adjust this value to move the text up or down */
+    left: 5%; /* Adjust horizontal positioning as necessary */
+    color: #deba3b; /* Change the text color to black */
+    z-index: 2; /* Ensure the text appears above gradients and background */
+    max-width: 500px; /* Optional: control text width */
+}
+
+.hero-logo {
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    width: 300px; /* Adjust size as needed */
+    z-index: 2;
+}
+
+.bottom-gradient {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30%; /* Adjust height as needed */
+    background: linear-gradient(
+            to top,
+            rgba(3, 3, 9, 1), /* Dark at the bottom */
+            rgba(3, 3, 9, 0)    /* Transparent by the top of the section */
+    );
+    z-index: 1;
+}
+
+.hero-content h1 {
+    font-size: 2.5em; /* Adjust size if necessary */
+    margin-bottom: 0.5em; /* Optional: spacing between heading and paragraph */
+}
+
+.hero-content p {
+    font-size: 1.2em; /* Adjust size if necessary */
+    margin-bottom: 1em;
+}
+
+.learn-more-btn {
+    background-color: #fdee21; /* Button color */
+    border: none;
+    border-radius: 20px;
+    padding: 0.5em 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.learn-more-btn:hover {
+    background-color: #f7b907; /* Darken on hover */
+}

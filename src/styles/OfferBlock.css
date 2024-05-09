@@ -1,0 +1,22 @@
+/* OfferBlock.css */
+.offer-block {
+    background-color: #2b2b2b;
+    border-radius: 10px;
+    padding: 1em 1.5em;
+    width: 200px; /* Adjust width */
+    text-align: center;
+}
+
+.offer-icon {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.offer-block h3 {
+    margin: 0.5em 0;
+}
+
+.offer-block p {
+    font-size: 0.9em;
+    color: #d3d3d3;
+}

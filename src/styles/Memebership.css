@@ -1,0 +1,73 @@
+/* Membership.css */
+.membership {
+    position: relative;
+    padding: 4em 2em;
+    text-align: center;
+    background-color: #ffffff; /* Adjust as needed */
+    overflow: hidden; /* Prevent diagonal boxes from overflowing */
+}
+
+.diagonal-box-1,
+.diagonal-box-2 {
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    top: 0;
+    z-index: 0; /* Ensure it's behind the content */
+}
+
+.diagonal-box-1 {
+    background-color: #cfac4d; /* Adjust to your desired color */
+    transform: rotate(-10deg); /* Adjust the angle as needed */
+    left: -50%;
+}
+
+.diagonal-box-2 {
+    background-color: #f8d90f; /* Adjust to your desired color */
+    transform: rotate(10deg); /* Adjust the angle as needed */
+    right: -50%;
+}
+
+.membership h2 {
+    font-size: 2.5em;
+    margin-bottom: 1.5em;
+    z-index: 1; /* Make sure it's above the diagonal boxes */
+    position: relative;
+}
+
+.plans {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em; /* Adjust spacing between cards */
+    z-index: 1;
+    position: relative;
+}
+
+.top-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30%; /* Adjust height as needed */
+    background: linear-gradient(
+            to bottom,
+            rgba(3, 3, 9, 1), /* Semi-transparent at the top */
+            rgba(3, 3, 9, 0)    /* Transparent by the bottom of the section */
+    );
+    z-index: 1;
+}
+
+.bottom-gradient {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30%; /* Adjust height as needed */
+    background: linear-gradient(
+            to top,
+            rgba(3, 3, 9, 1), /* Dark at the bottom */
+            rgba(3, 3, 9, 0)    /* Transparent by the top of the section */
+    );
+    z-index: 1;
+}
