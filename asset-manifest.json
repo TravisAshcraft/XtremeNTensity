@@ -1,18 +1,26 @@
 {
   "files": {
-    "main.css": "/XtremeNTensity/static/css/main.dd40e695.css",
-    "main.js": "/XtremeNTensity/static/js/main.506d536e.js",
+    "main.css": "/XtremeNTensity/static/css/main.ca7370ce.css",
+    "main.js": "/XtremeNTensity/static/js/main.ae9199f6.js",
     "static/js/453.c88e9a5f.chunk.js": "/XtremeNTensity/static/js/453.c88e9a5f.chunk.js",
+    "static/media/fa-solid-900.ttf": "/XtremeNTensity/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
     "static/media/destruction.png": "/XtremeNTensity/static/media/destruction.a7009efa3a13bc46317e.png",
-    "static/media/xtrementensitylogo.png": "/XtremeNTensity/static/media/xtrementensitylogo.e4882126f10f5e8aa64e.png",
+    "static/media/fa-brands-400.ttf": "/XtremeNTensity/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
+    "static/media/fa-solid-900.woff2": "/XtremeNTensity/static/media/fa-solid-900.4d986b00ff9ca3828fbd.woff2",
+    "static/media/Tamsey_Sparks.jpg": "/XtremeNTensity/static/media/Tamsey_Sparks.3046eafcf5f1433b91c9.jpg",
+    "static/media/fa-brands-400.woff2": "/XtremeNTensity/static/media/fa-brands-400.455ea818179b4def0c43.woff2",
+    "static/media/fa-regular-400.ttf": "/XtremeNTensity/static/media/fa-regular-400.eb91f7b948a42799f678.ttf",
+    "static/media/fa-regular-400.woff2": "/XtremeNTensity/static/media/fa-regular-400.21cb8f55d8e0c5b89751.woff2",
     "static/media/heidi.jpeg": "/XtremeNTensity/static/media/heidi.e38e7c9974d222463eae.jpeg",
+    "static/media/fa-v4compatibility.ttf": "/XtremeNTensity/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
+    "static/media/fa-v4compatibility.woff2": "/XtremeNTensity/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
     "index.html": "/XtremeNTensity/index.html",
-    "main.dd40e695.css.map": "/XtremeNTensity/static/css/main.dd40e695.css.map",
-    "main.506d536e.js.map": "/XtremeNTensity/static/js/main.506d536e.js.map",
+    "main.ca7370ce.css.map": "/XtremeNTensity/static/css/main.ca7370ce.css.map",
+    "main.ae9199f6.js.map": "/XtremeNTensity/static/js/main.ae9199f6.js.map",
     "453.c88e9a5f.chunk.js.map": "/XtremeNTensity/static/js/453.c88e9a5f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd40e695.css",
-    "static/js/main.506d536e.js"
+    "static/css/main.ca7370ce.css",
+    "static/js/main.ae9199f6.js"
   ]
 }
