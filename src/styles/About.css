@@ -15,6 +15,7 @@
     font-size: 2.5em;
     text-align: center; /* Ensure the heading text is centered */
     margin: 0; /* Remove default margins for proper spacing */
+    z-index: 1;
 }
 
 .about p {
@@ -22,12 +23,14 @@
     max-width: 600px;
     text-align: center; /* Center the paragraph text */
     margin: 0 auto; /* Center horizontally within the section */
+    z-index: 1;
 }
 
 .offer-blocks {
     display: flex;
     gap: 1.5em;
     justify-content: center; /* Center the offer blocks */
+    z-index: 1;
 }
 
 /* Overlay Image with Gradient */
@@ -45,5 +48,5 @@
     url('/public/images/heidi.jpeg'); /* Adjust the image path */
     background-size: cover;
     background-position: center;
-    z-index: 1; /* Place the image below the text content */
+    z-index: 0; /* Place the image below the text content */
 }

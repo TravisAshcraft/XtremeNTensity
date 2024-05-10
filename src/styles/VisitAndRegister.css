@@ -1,0 +1,163 @@
+﻿/* VisitAndRegister.css */
+.visit-register {
+    width: 100%; /* Ensure full-width container */
+    min-height: 100vh; /* Full viewport height */
+    margin: 0;
+    padding: 0;
+    background: url('/public/images/Tamsey_Sparks.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.visit-container {
+    display: flex;
+    gap: 2em; /* Add space between the map and the information box */
+    width: 50%;
+    flex-wrap: wrap; /* Allows elements to wrap on smaller screens */
+}
+
+.map-embed {
+    flex: 1; /* Take up remaining space */
+    min-width: 300px; /* Adjust the minimum width */
+    height: 400px; /* Adjust height as needed */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+.map-section {
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 1em;
+    border-radius: 10px;
+    text-align: left;
+    max-width: 1400px; /* Cap the maximum width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+.socials {
+    display: flex;
+    gap: 0.5em;
+}
+
+.socials a {
+    color: #f5f5f5;
+    font-size: 2.5em;
+    text-decoration: none;
+}
+
+.register-container {
+    width: 100%; /* Full-width background */
+    height: 662px; /* Adjust to your height */
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    border-radius: 10px;
+}
+
+.register-box {
+    background-color: #ffffff;
+    color: #030309;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    flex: 1;
+    max-width: 400px;
+}
+
+.register-box h2 {
+    color: #000000;
+}
+
+.register-box input {
+    width: 100%;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    background-color: #f5f5f5;
+    color: #030309;
+}
+
+.submit-btn, .clear-entries-btn {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.submit-btn {
+    background-color: #fdee21; /* Adjust button color */
+    color: #030309;
+}
+
+.clear-entries-btn {
+    background-color: #000000;
+    color: #fdee21;
+}
+
+.join-family-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.join-family-section h2 {
+    color: #fdee21; /* Gold color */
+    margin-bottom: 0.5em;
+}
+
+.image-boxes {
+    display: flex;
+    gap: 1em;
+}
+
+.image-box {
+    width: 271px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .visit-container {
+        flex-direction: column; /* Stack map and info box vertically */
+    }
+
+    .map-section,
+    .register-section {
+        width: 80vw; /* Increase width for smaller screens */
+        left: 10%; /* Center the sections horizontally */
+    }
+
+    .socials {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .register-section h2 {
+        font-size: 1.2em;
+    }
+
+    .register-section form input,
+    .register-section form button {
+        font-size: 0.9em;
+        padding: 0.3em;
+    }
+}

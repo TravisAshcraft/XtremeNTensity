@@ -13,32 +13,37 @@ function Membership() {
             <div className="plans">
                 <PlanCard
                     title="Mom N Tot"
-                    rate="Monthly Rate"
+                    rate="$30 Monthly"
                     icon="♟️" /* Replace with an actual icon */
                 />
                 <PlanCard
                     title="Little Tumblers"
-                    rate="Monthly Rate"
+                    rate="$40 Monthly"
                     icon="♟️" /* Replace with an actual icon */
                 />
                 <PlanCard
                     title="Basic Tumble"
-                    rate="Monthly Rate"
+                    rate="$55 Monthly"
                     icon="⏲️"
                 />
                 <PlanCard
                     title="Advanced Tumble"
-                    rate="Monthly Rate"
+                    rate="$60 Monthly"
                     icon="🗓️"
                 />
                 <PlanCard
                     title="1 on 1 Coaching"
-                    rate="Monthly Rate"
+                    rate="$25 for a 30-minute session"
                     icon="♛"
                 />
                 <PlanCard
-                    title="Cheer Competition"
-                    rate="Annual Rate"
+                    title="Summer Classes"
+                    rate="$25 Monthly per class"
+                    icon="♛"
+                />
+                <PlanCard
+                    title="Competition Cheer & Hip Hop"
+                    rate="Depends On Level"
                     icon="👑"
                 />
             </div>

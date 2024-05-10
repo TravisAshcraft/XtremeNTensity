@@ -7,7 +7,7 @@ function Header() {
         <div className="navbar-container">
             <nav className="navbar">
                 <div className="logo">
-                    <img src="/images/xtreme%20ntensity%20vector.png" alt="Logo"/>
+                    <img src="/images/xtrementensityvector.png" alt="Logo"/>
                     <h1>Xtreme-N-Tensity</h1>
                 </div>
                 <ul className="nav-links">
