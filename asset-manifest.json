@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/XtremeNTensity/static/css/main.ca7370ce.css",
-    "main.js": "/XtremeNTensity/static/js/main.ae9199f6.js",
+    "main.js": "/XtremeNTensity/static/js/main.31acca72.js",
     "static/js/453.c88e9a5f.chunk.js": "/XtremeNTensity/static/js/453.c88e9a5f.chunk.js",
     "static/media/fa-solid-900.ttf": "/XtremeNTensity/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
     "static/media/destruction.png": "/XtremeNTensity/static/media/destruction.a7009efa3a13bc46317e.png",
@@ -16,11 +16,11 @@
     "static/media/fa-v4compatibility.woff2": "/XtremeNTensity/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
     "index.html": "/XtremeNTensity/index.html",
     "main.ca7370ce.css.map": "/XtremeNTensity/static/css/main.ca7370ce.css.map",
-    "main.ae9199f6.js.map": "/XtremeNTensity/static/js/main.ae9199f6.js.map",
+    "main.31acca72.js.map": "/XtremeNTensity/static/js/main.31acca72.js.map",
     "453.c88e9a5f.chunk.js.map": "/XtremeNTensity/static/js/453.c88e9a5f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca7370ce.css",
-    "static/js/main.ae9199f6.js"
+    "static/js/main.31acca72.js"
   ]
 }
