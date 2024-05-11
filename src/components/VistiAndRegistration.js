@@ -58,13 +58,16 @@ function VisitAndRegister() {
                     <h2>Join Our Family!</h2>
                     <div className="image-boxes">
                         <div className="image-box">
-                            <img src='/images/Londyn_Addi.png' alt="Family Member 1"/>
+                            <img src={process.env.PUBLIC_URL + "/images/Londyn_Addi.png"} alt="Family Member 1"/>
                         </div>
                         <div className="image-box">
-                            <img src="/images/Kate_Cameron.jpg" alt="Family Member 2"/>
+                            <img src={process.env.PUBLIC_URL + "/images/Kate_Cameron.jpg"} alt="Family Member 2"/>
                         </div>
                         <div className="image-box">
-                            <img src="/public/images/Tamsey_Sparks.jpg" alt="Family Member 3"/>
+                            <img src={process.env.PUBLIC_URL + "/images/D.jpg"} alt="Family Member 3"/>
+                        </div>
+                        <div className="image-box">
+                            <img src={process.env.PUBLIC_URL + "/images/Group.jpg"} alt="Family Member 3"/>
                         </div>
                     </div>
                 </div>

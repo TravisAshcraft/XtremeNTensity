@@ -2,6 +2,7 @@
 import React from "react";
 import "../styles/Hero.css";
 
+
 function Hero() {
     return (
         <section className="hero">
@@ -11,7 +12,7 @@ function Hero() {
                 <p>Where every child can reach for their dreams.</p>
                 <button className="learn-more-btn">Learn More</button>
             </div>
-            <img src="/images/xtrementensityvector.png" alt="Gym Logo" className="hero-logo" />
+            <img src={process.env.PUBLIC_URL+"/images/xtrementensityvector.png"} alt="Gym Logo" className="hero-logo" />
             <div className="bottom-gradient"></div>
         </section>
     );
