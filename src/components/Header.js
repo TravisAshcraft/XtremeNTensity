@@ -7,7 +7,7 @@ function Header() {
         <div className="navbar-container">
             <nav className="navbar">
                 <div className="logo">
-                    <img src={process.env.PUBLIC_URL+"/images/xtrementensityvector.png"}  alt="Logo"/>
+                    <img src={process.env.PUBLIC_URL + "/images/xtrementensityvector.png"} alt="Logo"/>
                 </div>
                 <ul className="nav-links">
                     <li><a href="#about">About</a></li>
@@ -21,5 +21,6 @@ function Header() {
         </div>
     );
 }
+
 
 export default Header;

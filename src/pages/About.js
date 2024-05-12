@@ -6,6 +6,9 @@ import "../styles/About.css";
 function About() {
     return (
         <section className="about">
+            <div id="why-join-us"></div>
+            <div id="about"></div>
+            <div className="about-image-left"></div>
             <h2>About</h2>
             <p>At XN we strive for excellence not just in performance but in attention to detail. We build your kids
                 from the ground up in cheer and tumble no matter what their experience level is.</p>

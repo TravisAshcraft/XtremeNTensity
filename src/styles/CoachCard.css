@@ -1,0 +1,45 @@
+/* CoachCard.css */
+.coach-card {
+    width: 300px; /* Adjust size as needed */
+    height: 250px;
+    background-color: black;
+    border-radius: 50%; /* Makes the whole card rounded */
+    overflow: hidden; /* Ensures no overflow from children */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 10px; /* Space around each card */
+    flex-shrink: 0; /* Prevent the card from shrinking */
+}
+
+.coach-image {
+    width: 100%; /* Full width of the card */
+    height: 200px; /* Adjust based on your design */
+    background-size: cover;
+    background-position: center 20%; /* Shifts the focus of the image down slightly */
+    border-radius: 50%; /* Circular photo */
+}
+
+.coach-info {
+    position: absolute; /* Positioning it over the image */
+    bottom: 10px; /* Positioned near the bottom of the circle */
+    width: 100%; /* Takes up full width of the card */
+    text-align: center; /* Center the text */
+    background-color: black;
+    color: gold; /* Gold text color */
+    padding: 10px 0; /* Padding for spacing */
+}
+
+.coach-info h3 {
+    margin: 0; /* Remove default margin */
+    font-size: 1.2em; /* Adjust font size as needed */
+}
+
+/* Correcting the placement and scope of the media query */
+@media (max-width: 600px) {
+    .coaches-container {
+        flex-direction: column; /* Stack cards vertically on small screens */
+        align-items: center;    /* Center cards vertically */
+    }
+}

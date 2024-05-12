@@ -1,0 +1,10 @@
+.particle {
+    position: absolute;
+    pointer-events: none;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: gold;
+    opacity: 0.8;
+    z-index: 1000;
+}

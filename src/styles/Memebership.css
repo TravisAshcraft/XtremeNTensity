@@ -33,6 +33,7 @@
     margin-bottom: 1.5em;
     z-index: 1; /* Make sure it's above the diagonal boxes */
     position: relative;
+    color: #ffffff;
 }
 
 .plans {

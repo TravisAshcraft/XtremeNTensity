@@ -5,6 +5,7 @@ import Hero from "./Hero";
 import About from "./About";
 import JoinMembership from "./JoinMembership";
 import VisitAndRegister from "../components/VistiAndRegistration";
+import Coaches from "./Coaches";
 
 function Home() {
     return (
@@ -12,6 +13,7 @@ function Home() {
             <Hero/>
             <About/>
             <JoinMembership/>
+            <Coaches/>
             <VisitAndRegister/>
             {/* Add any other components or sections as needed */}
         </div>

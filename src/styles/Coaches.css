@@ -1,0 +1,43 @@
+/* CoachesSection.css */
+.coaches-section {
+    position: relative;
+    padding: 2em;
+    text-align: center;
+    background: url('/public/images/android-chrome-192x192.png') no-repeat center center / cover;
+    color: white;
+    overflow: hidden; /* Ensures no overflow content from the section */
+}
+
+/* Ensures the overlay is below all other content */
+.coaches-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    z-index: 1; /* Lower than the content z-index */
+}
+
+/* Adjust z-index and position for header and all content */
+.coaches-section h2, .coaches-section * {
+    color: #deba3b;
+    position: relative;
+    z-index: 2; /* Ensures content is above the overlay */
+}
+
+.coaches-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    z-index: 2; /* Same z-index as header to ensure it's also above the overlay */
+}
+
+@media (max-width: 600px) {
+    .coaches-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}

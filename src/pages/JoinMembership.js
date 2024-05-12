@@ -6,6 +6,7 @@ import "../styles/Memebership.css";
 function Membership() {
     return (
         <section className="membership">
+            <div id="plan"></div>
             <div className="top-gradient"></div>
             <div className="diagonal-box-1"></div>
             <div className="diagonal-box-2"></div>

@@ -50,3 +50,21 @@
     background-position: center;
     z-index: 0; /* Place the image below the text content */
 }
+
+/* Overlay Image with Gradient on the Left */
+.about-image-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px; /* Adjust size as needed */
+    height: 100%; /* Full height of the section */
+    background: linear-gradient(
+            to right,
+            rgba(3, 3, 9, 0.35), /* Gradient effect from the left */
+            rgba(3, 3, 9, 1)
+    ),
+    url('/public/images/Group2.png'); /* Specify your second image path */
+    background-size: cover;
+    background-position: center;
+    z-index: 0; /* Place the image below the text content */
+}

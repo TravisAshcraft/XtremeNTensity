@@ -5,9 +5,7 @@ import "../styles/VisitAndRegister.css";
 function VisitAndRegister() {
     return (
         <section className="visit-register">
-            
-            
-
+            <div id="visit-our-gym"></div>
             <div className="visit-container">
                 <div className="map-embed">
                     <iframe
@@ -15,7 +13,7 @@ function VisitAndRegister() {
                         width="100%"
                         height="100%"
                         style={{border: 0}}
-                        allowFullScreen=""
+                        allowFullScreen="true"
                         aria-hidden="false"
                         tabIndex="0"
                         title="Gym Location Map"

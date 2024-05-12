@@ -1,20 +1,30 @@
 /* Hero.css */
 .hero {
     position: relative;
-    background: url('/public/images/destruction.png'); /* Adjust the image path */
+    background: url('/public/images/destruction.png') no-repeat center center; /* Verify the image path */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    
-    aspect-ratio: 1920 / 620;
+
+    /* Adjusted aspect ratio for responsiveness */
+    aspect-ratio: 1920 / 640;
+    @media (max-width: 768px) {
+        aspect-ratio: 768 / 300; /* More suitable for smaller screens */
+    }
+
     margin: 0 auto;
     color: white;
     text-align: left;
-    padding: 4em 2em;
+    /* Reduced padding and made responsive */
+    padding: 2em 1em;
+    @media (max-width: 768px) {
+        padding: 1em 0.5em; /* Even smaller padding on mobile devices */
+    }
+
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center; /* Center aligned for better uniformity */
 }
 
 .top-gradient {
@@ -38,6 +48,15 @@
     color: #deba3b; /* Change the text color to black */
     z-index: 2; /* Ensure the text appears above gradients and background */
     max-width: 500px; /* Optional: control text width */
+    /* Responsive font sizes */
+    h1 {
+        font-size: calc(1.5em + 1vw); /* Responsive font size for headings */
+        margin-bottom: 0.5em; /* Optional: spacing between heading and paragraph */
+    }
+    p {
+        font-size: calc(1em + 0.5vw); /* Responsive font size for paragraphs */
+        margin-bottom: 1em;
+    }
 }
 
 .hero-logo {
@@ -62,16 +81,6 @@
     z-index: 1;
 }
 
-.hero-content h1 {
-    font-size: 2.5em; /* Adjust size if necessary */
-    margin-bottom: 0.5em; /* Optional: spacing between heading and paragraph */
-}
-
-.hero-content p {
-    font-size: 1.2em; /* Adjust size if necessary */
-    margin-bottom: 1em;
-}
-
 .learn-more-btn {
     background-color: #fdee21; /* Button color */
     border: none;
@@ -80,8 +89,7 @@
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.2s;
-}
-
-.learn-more-btn:hover {
-    background-color: #f7b907; /* Darken on hover */
+    &:hover {
+        background-color: #f7b907; /* Darken on hover */
+    }
 }

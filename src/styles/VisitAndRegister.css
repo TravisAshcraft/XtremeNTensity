@@ -1,4 +1,8 @@
 ﻿/* VisitAndRegister.css */
+* {
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+}
+
 .visit-register {
     width: 100%; /* Ensure full-width container */
     min-height: 100vh; /* Full viewport height */
@@ -13,29 +17,32 @@
 }
 
 .visit-container {
+    padding-top: 25px;
     display: flex;
     gap: 2em; /* Add space between the map and the information box */
-    width: 50%;
+    width: 100%; /* Adjusted to full width */
     flex-wrap: wrap; /* Allows elements to wrap on smaller screens */
 }
 
 .map-embed {
     flex: 1; /* Take up remaining space */
     min-width: 300px; /* Adjust the minimum width */
-    height: 400px; /* Adjust height as needed */
+    height: 300px; /* Adjust height as needed */
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    padding: 1em; /* Adjusted padding */
 }
 
 .map-section {
     flex: 1;
     background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
-    padding: 1em;
+    padding: .5em;
     border-radius: 10px;
     text-align: left;
     max-width: 1400px; /* Cap the maximum width */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    color: #ffffff; /* Set text color to white */
 }
 
 .socials {
@@ -67,7 +74,7 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     flex: 1;
-    max-width: 400px;
+    max-width: 400px; /* Ensures it doesn't exceed this width */
 }
 
 .register-box h2 {
@@ -141,9 +148,10 @@
     }
 
     .map-section,
-    .register-section {
-        width: 80vw; /* Increase width for smaller screens */
-        left: 10%; /* Center the sections horizontally */
+    .register-container { /* Ensure correct class names are used */
+        width: 100%; /* Full width for smaller screens */
+        position: relative; /* Reset any position offset */
+        left: 0; /* Reset left offset */
     }
 
     .socials {
@@ -151,13 +159,11 @@
         gap: 1em;
     }
 
-    .register-section h2 {
-        font-size: 1.2em;
-    }
-
-    .register-section form input,
-    .register-section form button {
-        font-size: 0.9em;
-        padding: 0.3em;
+    .register-box h2,
+    .register-box input,
+    .submit-btn,
+    .clear-entries-btn {
+        font-size: 0.9em; /* Adjust font size for smaller screens */
+        padding: 0.3em; /* Adjust padding for smaller screens */
     }
 }
