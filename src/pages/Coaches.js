@@ -14,11 +14,11 @@ const sampleCoaches = [
     { id: 2, name: 'Amber Brannan', image: './images/android-chrome-512x512.png' },
     { id: 3, name: 'Amy Hodge', image: './images/android-chrome-512x512.png' },
     { id: 4, name: 'Katherine Gatewood', image: './images/android-chrome-512x512.png' },
-    { id: 5, name: 'Kristen Franklin', image: './images/android-chrome-512x512.png' },
+    { id: 5, name: 'Kristen Franklin', image: './images/Kristen.jpeg' },
     { id: 6, name: 'Sarah Kirkland', image: './images/android-chrome-512x512.png' },
     { id: 7, name: 'Silvia Sillemon', image: './images/android-chrome-512x512.png' },
     { id: 8, name: 'Channing Simmons', image: './images/android-chrome-512x512.png' },
-    { id: 9, name: 'Alicia Clark', image: './images/android-chrome-512x512.png' }
+    { id: 9, name: 'Alicia Clark', image: './images/Alicia.jpeg' }
     
 ];
 

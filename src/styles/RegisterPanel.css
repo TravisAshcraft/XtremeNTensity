@@ -1,0 +1,83 @@
+.modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark background for visibility */
+    display: flex;
+    align-items: center; /* Center modal vertically */
+    justify-content: center; /* Center modal horizontally */
+    z-index: 1000; /* Make sure it's on top */
+}
+
+.register-panel {
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    width: auto;
+    max-width: 500px; /* Limits the width of the modal */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Aligns content such as logo and form in center */
+    position: relative;
+}
+
+.modal-logo {
+    max-width: 100%; /* Ensures the logo is responsive */
+    height: auto; /* Maintains aspect ratio */
+    margin-bottom: 1em; /* Space between logo and form */
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 1.2em;
+}
+
+.register-form input, .register-form button {
+    width: 100%; /* Full width inputs and button */
+    padding: 10px;
+    margin-bottom: 10px; /* Space between fields */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    background-color: #fdee21; /* Adjust to match your branding */
+    color: #030309;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Keyframes for fade-in effect */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    box-sizing: border-box;
+    z-index: 1000;
+    opacity: 0; /* Start with hidden modal */
+    animation: fadeIn 0.5s ease-in-out forwards; /* Apply the animation */
+}

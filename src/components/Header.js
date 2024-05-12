@@ -2,7 +2,7 @@
 import React from "react";
 import "../styles/Header.css"; // Import the CSS for styling
 
-function Header() {
+function Header({ onRegisterClick }) {
     return (
         <div className="navbar-container">
             <nav className="navbar">
@@ -16,7 +16,7 @@ function Header() {
                     <li><a href="#coaches">Coaches</a></li>
                     <li><a href="#visit-our-gym">Visit our Gym</a></li>
                 </ul>
-                <button className="register-btn">Register</button>
+                <button className="register-btn" onClick={onRegisterClick}>Register</button>
             </nav>
         </div>
     );
